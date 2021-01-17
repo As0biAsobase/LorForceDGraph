@@ -20,7 +20,7 @@
   "features": {
     "search": true,
     "groupSelectorAttribute": "Id",
-    "hoverBehavior": "dim"
+    "hoverBehavior": "hide"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
