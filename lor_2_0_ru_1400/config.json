@@ -10,7 +10,7 @@
   "text": {
     "more": "Force-directed graph for lor archetype detection.\nEach node represents a card, each edge conects cards in same deck.",
     "intro": "Force-directed graph for lor archetype detection.\nEach node represents a card, each edge conects cards in same deck.",
-    "title": "Lor_2.0_1400"
+    "title": "Lor_1.0"
   },
   "legend": {
     "edgeLabel": "Card in deck",
@@ -20,7 +20,7 @@
   "features": {
     "search": true,
     "groupSelectorAttribute": "Id",
-    "hoverBehavior": "dim"
+    "hoverBehavior": "hide"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
@@ -40,7 +40,7 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
+      "maxEdgeSize": 1,
       "minEdgeSize": 0.2,
       "minNodeSize": 1,
       "maxNodeSize": 7
