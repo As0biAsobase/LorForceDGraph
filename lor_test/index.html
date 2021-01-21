@@ -72,11 +72,15 @@
     defaultLabelColor: "#000",
     defaultHoverLabelBGColor: "#002147",
     defaultLabelBGColor: "#ddd",
-    edgeColor:'default',
     enableEdgeHovering: true,
     enableHovering: true,
     drawEdges: true,
-}
+    labelThreshold: 10,
+    defaultEdgeType: "curve",
+    hoverFontStyle: "bold",
+    fontStyle: "bold",
+    activeFontStyle: "bold"
+  }
 
   sigma.parsers.gexf('data/test.gexf', {
     renderers: [
