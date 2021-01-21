@@ -65,8 +65,23 @@
     <div id="graph-container"></div>
   </div>
   <script>
+  const my_settings = {
+    minEdgeSize: 0.2,
+    defaultEdgeType: "curve",
+    maxEdgeSize: 1,
+    defaultLabelColor: "#000",
+    defaultHoverLabelBGColor: "#002147",
+    defaultLabelBGColor: "#ddd",
+    edgeColor:'default',
+    enableEdgeHovering: true,
+    enableHovering: true,
+    drawEdges: true,
+}
+
   sigma.parsers.gexf('data/test.gexf', {
-    container: 'graph-container'
+    settings: my_settings,
+    container: 'graph-container',
+    type: 'canvas'
   });
   </script>
 </body>
