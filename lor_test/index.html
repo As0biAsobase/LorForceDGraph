@@ -79,9 +79,14 @@
 }
 
   sigma.parsers.gexf('data/test.gexf', {
+    renderers: [
+        {
+          container: document.getElementById('graph-container'),
+          type: 'canvas' // sigma.renderers.canvas works as well
+        }
+    ],
     settings: my_settings,
-    container: 'graph-container',
-    type: 'canvas'
+
   });
   </script>
 </body>
